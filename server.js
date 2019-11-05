@@ -6,7 +6,7 @@ var https = require("https");
 const APP_ID = process.env['app_id'];
 const APP_CODE = process.env['app_code'];
 
-app.get('/sample', function (req, res) {
+app.get('/geocoder', function (req, res) {
         let url = "https://geocoder.api.here.com/6.2/geocode.json" + 
                     "?app_id=" + APP_ID + 
                     "&app_code=" + APP_CODE + 
